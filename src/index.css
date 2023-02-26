@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home{
+  background-image: url("./bghome.png") ; opacity: 0.5;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+
+  
+ 
+  
+}
+.home h1{
+  font-style: italic;
+  font-size: 250px;
+  color: rgb(255, 0, 55);
+  opacity: 1;
+  position: absolute;
+  left: 200px;
+  margin-top: 0px;
+  font-family:"kaushan script";
+  font-weight: lighter;
+
+}
+.home h2{
+  margin-right: 200px;
+  font-size: 45px;
+}
+.home span{
+  color: rgb(255, 0, 55);
+
+}
+.navlist{
+  display: flex;
+  flex-direction: row;
+  /*margin: 5px;*/
+  /*border-style: solid;*/
+
+  content: close-quote;
+  align-items: center;
+  font-family: cursive;
+  background-color: rgb(253, 246, 253);
+  justify-content: space-between;
+}
+.b{
+  display: flex;
+  padding: 0 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #343f4f;
+}
+.wrapper .carousel{
+
+ 
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+.carousel img{
+  height: 390px;
+  object-fit: cover;
+  margin-left: 14px;
+  width:calc(100% /3);
+}
+.carousel img:first-child{
+  margin-left:0px ;
+}
+.wrapper{
+  max-width: max-content;
+  position: relative;
+}
+.wrapper i{
+  background-color: rgb(43, 41, 41);
+  color: #fff;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 50px;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 50%;
+  justify-content: center;
+  border: #fff;
+  border: solid;
+
+}
+.wrapper i:first-child{
+  left: -23px;
+
+}
+.wrapper i:last-child{
+  right: -23px;
+}
+.a{
+  align-items: center;
+  text-align: center;  
+}
